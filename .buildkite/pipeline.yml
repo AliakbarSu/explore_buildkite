@@ -1,9 +1,10 @@
 steps:
-  - label: "Tests"
-    command: "echo 'Hello world'"
+  - label: "Install dependencies"
+    command: "echo 'Installing dependencies'"
   - block: "Release"
     prompt: "Fill out the details for release"
     fields:
       - text: "Release Name"
         key: "release-name"
-
+  - label: "Run tests"
+    command: "echo 'Running tests'"
