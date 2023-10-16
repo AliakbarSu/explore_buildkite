@@ -1,5 +1,3 @@
 steps:
-  - label: ":buildkite: Upload steps"
-    command: "buildkite-agent pipeline upload .buildkite/pipeline.yml"
-  - label: "Echo something"
+  - label: "Tests"
     command: "echo 'Hello world'"
